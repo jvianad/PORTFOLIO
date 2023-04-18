@@ -1,3 +1,91 @@
-h1{
-    color: red;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*HEADER*/
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(16, 40, 40);
+    height: 8vh;
+}
+
+.nombre{
+    color: rgb(53, 180, 138);
+}
+
+.navbar a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    margin: 0 20px;
+}
+
+.navbar a:hover{
+    color: rgb(53, 180, 138);
+    transition: 0.2s all ease;
+}
+
+/*MAIN*/
+.seccion-main{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://pcredcom.com/blog/wp-content/uploads/2020/10/fondos-de-pantalla.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92vh;
+    
+
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid whitesmoke;
+    margin-top: 20px;
+    height: 32rem;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.img-yo{
+    width: 250px;
+    border-radius: 50%;
+    border: 6px solid rgb(53, 180, 138);
+    margin-top: 25px;
+}
+
+.titulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.redes{
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+    color: white;
+}
+
+.redes a{
+    font-size: 35px;
+    color: white;
+    padding: 10px;
+}
+
+.redes a:hover{
+    color: rgb(53, 180, 138);
+    transition: 0.5s all ease;
+    font-size: 40px;
 }
